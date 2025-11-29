@@ -1,7 +1,7 @@
 // CopoDeNieve.js
 import * as THREE from '../js/three.module.js';
 
-export default function Obj13({ x, y, z }) {
+export default function Obj5({ x, y, z }) {
 
     // Geometría larga y delgada
     var geometry1 = new THREE.CylinderGeometry(0.1, 0.1, 10);
@@ -60,3 +60,4 @@ export default function Obj13({ x, y, z }) {
 
     return copo;
 }
+
